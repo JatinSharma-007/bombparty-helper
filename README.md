@@ -1,6 +1,5 @@
 Never made a chrome extension before, mashed this up in about 30 minutes.
-Code is very ugly and I wasn't planning on putting this on GitHub. This is very basic and meant for educational purposes,
-please don't ruin anyone's games by abusing it. The game is more fun without mods anyways. :)
+Code is very ugly and I wasn't planning on putting this on GitHub. Please only use this to practice and help you learn more words. Any abuse will get you banned by ingame moderators.
 
 # Features
 
