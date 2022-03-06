@@ -24,7 +24,7 @@ autoJoiner.addEventListener("click", async () => {
 });
 
 function injectWordFinder() {
-  let skribbleList = [];
+  let scrabbleList = [];
 
   var xhr = new XMLHttpRequest();
   let url = chrome.runtime.getURL("wordlist.txt");
@@ -33,7 +33,7 @@ function injectWordFinder() {
   xhr.onreadystatechange = async function () {
     if (xhr.readyState == XMLHttpRequest.DONE && xhr.status == 200) {
       let data = xhr.responseText;
-      skribbleList = data.split("\n");
+      scrabbleList = data.split("\n");
 
       while (true) {
         let syllable = document.getElementsByClassName("syllable")[0].innerHTML;
@@ -53,8 +53,8 @@ function injectWordFinder() {
         let shortestWord = null;
         let shortestLength = Number.MAX_SAFE_INTEGER;
 
-        for (let i = 0; i < skribbleList.length; i++) {
-          let word = skribbleList[i];
+        for (let i = 0; i < scrabbleList.length; i++) {
+          let word = scrabbleList[i];
           if (word.toUpperCase().includes(syllable.toUpperCase())) {
             choices.push(word);
 

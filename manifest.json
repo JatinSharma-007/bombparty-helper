@@ -1,13 +1,17 @@
 {
-  "name": "Getting Started Example",
-  "description": "Build an Extension!",
+  "name": "Bombparty Helper",
+  "description": "Intended for educational purposes only.",
   "version": "1.0",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
   },
   "permissions": ["storage", "activeTab", "scripting", "webNavigation"],
-  "host_permissions": ["https://*/*", "file:///*/"],
+  "host_permissions": [
+    "https://jklm.fun/*",
+    "https://falcon.jklm.fun/games/bombparty",
+    "file:///*/"
+  ],
   "web_accessible_resources": [
     {
       "resources": ["wordlist.txt"],
