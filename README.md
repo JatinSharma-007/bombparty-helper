@@ -4,8 +4,8 @@ please don't ruin anyone's games by abusing it. The game is more fun without mod
 
 # Features
 
-Word-Finder (will suggest 11 matching words to the current letter combination. The first one in the list is the shortest one it found.)
-Auto-Joiner (will automatically join when the Join Game button appears, so you don't miss it.)
+1. Word-Finder (will suggest 11 matching words to the current letter combination. The first one in the list is the shortest one it found.)
+2. Auto-Joiner (will automatically join when the Join Game button appears, so you don't miss it.)
 
 # Usage Instructions:
 
